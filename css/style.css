@@ -11,6 +11,12 @@ body {
 nav {
   background-color: white;
   padding: 8px 16px;
+  /* flex-direction: row;
+  align-items: center; */
+    display: flex;
+   flex-direction: row;
+  align-items: baseline;
+  justify-content: space-between;
 }
 
 p {
@@ -22,6 +28,7 @@ section {
   background-color: black;
   color: white;
   padding: 24px 72px;
+
 }
 
 h1,
@@ -80,6 +87,10 @@ nav button {
 #subnav {
   padding: 32px 72px 0;
   background-color: white;
+     display: flex;
+   flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
 }
 
 #subnav button {
@@ -95,3 +106,61 @@ nav button {
   border-radius: 50px;
   padding: 6px 15px;
 }
+#destinations{
+display:flex;
+     gap: 20px;
+     justify-content: start;
+}
+#actions{
+    display:flex;
+    justify-content:end;
+     gap: 20px;
+}
+#hero{
+    display: flex;
+    flex-direction: column;
+    gap:100px;
+  align-items: center;
+  
+}
+#header{
+    display: flex;
+    align-content: flex-start;
+   
+}
+#search{
+display: flex;
+}
+#trending{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap : 10px;
+   align-content: flex-end;
+   align-items: baseline;
+}
+/* #subnav{
+    display: flex;
+   flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+} */
+/* #sort{
+display: flex;
+gap:10px;
+ 
+
+}
+#filter{
+display: flex;
+gap:10px;
+ 
+} */
+ .card{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    gap:10px;
+    
+ }
