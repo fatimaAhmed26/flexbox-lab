@@ -78,6 +78,10 @@ nav button {
 
 .card-footer {
   font-size: 14px;
+   display: flex;
+   flex-direction: row;
+  align-items: baseline;
+  justify-content: space-between;
 }
 
 .card-footer * {
@@ -166,3 +170,10 @@ gap:10px;
     align-content: space-between;
     
  }
+
+/* .card-footer {
+  display: flex;
+  flex-direction: row;
+   align-content: space-evenly;
+   
+} */
